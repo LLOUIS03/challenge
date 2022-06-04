@@ -1,0 +1,17 @@
+package DB
+
+const (
+	END = "END"
+	SET = "SET"
+	UNSET = "UNSET"
+	NUMEQUALTO = "NUMEQUALTO"
+	GET = "GET"
+	BEGIN = "BEGIN"
+	ROLLBACK = "ROLLBACK"
+	COMMIT = "COMMIT"
+	VALID_OPERATION_MSG = "Enter valid operation like: SET x 10"
+	ENTRANCE_MSG = "Enter a operation: (SET, GET, UNSET, NUMEQUALTO, BEGIN, ROLLBACK, COMMIT)"
+	FINISHED_MSG = "Finished"
+	INVALID_COMMAND_MSG = "Invalid Command: %s"
+	NO_TRANSACTION = "NO TRANSACTION"
+)
